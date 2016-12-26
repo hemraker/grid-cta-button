@@ -1,0 +1,12 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+@{ 
+    bool btnTarget = Model.value.btnTarget;
+    string btnLink = Model.value.btnLink;
+    string btnText = Model.value.btnText;
+    string btnClass = Model.value.btnClass.value;
+    string btnPosition = Model.value.btnPosition;
+}
+
+<div style="text-align: @btnPosition">
+    <a href="@btnLink" class="btn @btnClass" @Umbraco.If(btnTarget, "target='_blank'")>@btnText</a>
+</div>

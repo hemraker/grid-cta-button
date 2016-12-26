@@ -1,0 +1,22 @@
+﻿<div ng-controller="rhs.gridctacontroller"
+     class="ctaEditor">
+
+    <!-- CTA Button -->
+    <div style="text-align: {{control.value.btnPosition}}">
+        <button prevent-default
+                ng-click="openOverlay($scope.control)"
+                ng-class="control.value.btnClass.value"
+                class="ctaButton btn">
+            {{control.value.btnText}}
+        </button>
+    </div>
+
+    <!-- Edit Overlay -->
+    <umb-overlay ng-if="overlay.show"
+                 model="overlay"
+                 view="overlay.view"
+                 position="right">
+    </umb-overlay>
+
+</div>
+

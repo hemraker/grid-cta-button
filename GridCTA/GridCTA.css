@@ -1,0 +1,10 @@
+﻿.ctaEditor .ctaButton{
+    margin: 30px;
+    cursor: pointer;
+}
+
+.ctaEditor .ctaButton.btn-primary {
+    /* Display Boostrap primary button color in Backoffice */
+    background-color: #006dcc;
+    background-image: initial;
+}

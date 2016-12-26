@@ -1,0 +1,67 @@
+﻿<div>
+
+    <!-- Button Text -->
+    <div class="control-group umb-control-group">
+        <div class="umb-el-wrap">
+            <div class="controls">
+                <label class="control-label" for="btnText">
+                    Button Text
+                </label>
+                <input type="text" ng-model="model.editModel.btnText" name="BtnText" />
+            </div>
+        </div>
+    </div>
+    
+    <!-- Button Link -->
+    <div class="control-group umb-control-group">
+        <div class="umb-el-wrap">
+            <div class="controls">
+                <label class="control-label" for="btnLink">
+                    Button Link
+                </label>
+                <input type="url" ng-model="model.editModel.btnLink" name="btnLink" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Color -->
+    <div class="control-group umb-control-group">
+        <div class="umb-el-wrap">
+            <div class="controls">
+                <label class="control-label" for="btnColor">
+                    Button Color
+                </label>
+                <select ng-model="model.editModel.btnClass" ng-options="option.label for option in model.btnColor track by option.value">
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Position -->
+    <div class="control-group umb-control-group">
+        <div class="umb-el-wrap">
+            <div class="controls">
+                <label class="control-label" for="btnPosition">
+                    Button Position
+                </label>
+                <input type="radio" name="btnPosition" value="left" ng-model="model.editModel.btnPosition"/>&nbsp;Left&nbsp;&nbsp;
+                <input type="radio" name="btnPosition" value="center" ng-model="model.editModel.btnPosition"/>&nbsp;Center&nbsp;&nbsp;
+                <input type="radio" name="btnPosition" value="right" ng-model="model.editModel.btnPosition"/>&nbsp;Right&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+
+    <!-- Button Target -->
+    <div class="control-group umb-control-group">
+        <div class="umb-el-wrap">
+            <div class="controls">
+                <label class="control-label" for="btnTarget">
+                    Open in new window?
+                </label>
+                <input type="checkbox" ng-model="model.editModel.btnTarget" value="{{model.editModel.btnTarget}}" name="btnTarget"/>
+                Yes, open in new window
+            </div>
+        </div>
+    </div>
+    
+</div>

@@ -1,0 +1,82 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "CTA Button",
+      "alias": "gridCTA",
+      "view": "~/App_Plugins/GridCTA/gridCTA.html",
+      "render": "~/App_Plugins/GridCTA/gridCTA.cshtml",
+      "icon": "icon-hand-pointer",
+      
+      "config": {
+        
+        // Default button options
+        "btnDefaults": {
+          
+          // Default button text (string)
+          "btnText": "Click me!",
+          // Default button class (obj.value)
+          "btnClass": {
+            "value": "btn-primary"
+          },
+          // Default button link (url)
+          "btnLink": "http://umbraco.com",
+          // Open default button in new window (bool)
+          "btnTarget": false,
+          // Default button position (string for inline styling with text-align)
+          "btnPosition": "center"
+        },
+        
+        // Button colors
+        "btnColor": [
+          // Text shown in editor (obj.label)
+          // Class applied to button (obj.value)
+          {
+            "label": "Blue",
+            "value": "btn-primary"
+          },
+          {
+            "label": "Green",
+            "value": "btn-success"
+          },
+          {
+            "label": "Orange",
+            "value": "btn-warning"
+          },
+          {
+            "label": "Turquoise",
+            "value": "btn-info"
+          },
+          {
+            "label": "Red",
+            "value": "btn-danger"
+          }
+        ],
+        
+        "btnPosition": [
+          // Button alignment
+          // Text shown in editor (obj.label)
+          // Align button with tex.aling (obj.value)
+          {
+            "label": "Left",
+            "value": "left"
+          },
+          {
+            "label": "Center",
+            "value": "center"
+          },
+          {
+            "label": "Right",
+            "value": "right"
+          }
+        ]
+      }
+    }
+  ],
+
+  "javascript": [
+    "~/App_Plugins/GridCTA/gridCTA.controller.js"
+  ],
+  "css": [
+    "~/App_Plugins/GridCTA/GridCTA.css"
+  ]
+}
