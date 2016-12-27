@@ -11,7 +11,7 @@ v0.1 has rather limited functionality but better to get it out there :) It's set
 - Open link in new window
 
 ## Install
-Copy `/GridCTA/` folder to `/App_Plugins/` or install via package installer.
+Copy `/GridCTA/` folder to `/App_Plugins/`, [download from our.umbraco.org](https://our.umbraco.org/projects/backoffice-extensions/grid-cta-button/) or install directly from the package installer.
 
 ## Config
 Basic configuration is possible by editing `/App_Plugins//GridCTA/package.manifest`
