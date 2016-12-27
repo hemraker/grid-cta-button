@@ -2,7 +2,7 @@
 Grid Editor for Umbraco 7.4+ that enables the creation of CTA buttons.
 
 ## Features
-v0.1 has rather limited functionality but better to get it out there :) It's set up to work with Bootstrap 3 default buttons OTB but should be fairly easy to change functionality/frame work.
+Started as a test and has rather limited functionality but better to get it out there :) It's set up to work with Bootstrap 3 default buttons OTB but should be fairly easy to change functionality/frame work.
 - Create CTA button in Grid Layout property editor
 - Edit button text
 - Edit button link
