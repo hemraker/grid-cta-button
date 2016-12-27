@@ -2,9 +2,9 @@
   "gridEditors": [
     {
       "name": "CTA Button",
-      "alias": "gridCTA",
-      "view": "~/App_Plugins/GridCTA/gridCTA.html",
-      "render": "~/App_Plugins/GridCTA/gridCTA.cshtml",
+      "alias": "gridCtaButton",
+      "view": "~/App_Plugins/GridCtaButton/GridCtaButton.html",
+      "render": "~/App_Plugins/GridCtaButton/GridCtaButton.cshtml",
       "icon": "icon-hand-pointer",
       
       "config": {
@@ -74,9 +74,9 @@
   ],
 
   "javascript": [
-    "~/App_Plugins/GridCTA/gridCTA.controller.js"
+    "~/App_Plugins/GridCtaButton/GridCtaButton.controller.js"
   ],
   "css": [
-    "~/App_Plugins/GridCTA/GridCTA.css"
+    "~/App_Plugins/GridCtaButton/GridCtaButton.css"
   ]
 }

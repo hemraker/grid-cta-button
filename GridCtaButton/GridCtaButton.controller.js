@@ -14,7 +14,7 @@
 
             $scope.overlay = {
                 title: "Edit CTA Button",
-                view: "/App_Plugins/GridCTA/GridCTAOverlay.html",
+                view: "/App_Plugins/GridCtaButton/GridCtaButtonOverlay.html",
                 editModel: $scope.control.value,
                 btnColor: $scope.control.editor.config.btnColor,
                 show: true,
@@ -30,5 +30,5 @@
         }
     }
 
-    angular.module("umbraco").controller("rhs.gridctacontroller", Controller);
+    angular.module("umbraco").controller("rhs.gridctabuttoncontroller", Controller);
 })();
